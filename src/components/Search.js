@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Search = ({ searchMovies }) => {
-  const [search, setSearch] = useState('panda');
+  const [search, setSearch] = useState('shrek');
   const [type, setType] = useState('all');
 
   const handleKey = (e) => {
