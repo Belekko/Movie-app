@@ -2,8 +2,8 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <nav>
-      <div className='nav-wrapper header__nav'>
+    <nav >
+      <div className='nav-wrapper header__nav #1e88e5 blue darken-1'>
         <span className='brand-logo'  >
           React
         </span>

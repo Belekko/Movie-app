@@ -25,7 +25,7 @@ const Search = ({ searchMovies }) => {
           onChange={(e) => setSearch(e.target.value)}
           onKeyDown={handleKey}
         />
-        <button className='btn search-btn' onClick={() => searchMovies(search, type)}>
+        <button className='btn search-btn #29b6f6 light-blue lighten-1' onClick={() => searchMovies(search, type)}>
           Search Movies
         </button>
       </div>
