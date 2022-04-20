@@ -21,7 +21,7 @@ const Main = () => {
   };
 
   useEffect(() => {
-    fetch('https://www.omdbapi.com/?apikey=329ffa13&s=panda')
+    fetch('https://www.omdbapi.com/?apikey=329ffa13&s=shrek')
       .then((response) => response.json())
       .then((data) => {
         setMovies(data.Search);
